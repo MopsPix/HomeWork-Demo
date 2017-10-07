@@ -4,7 +4,7 @@
 
 body{
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -45,6 +45,12 @@ main > div{
 		height: 100%;
 	}
 @media(max-width:960px){
+	.container{
+		max-width: 960px;
+	}
+main{
+	flex-direction: column;
+}
 	.pictures{
 		display: block;
 	    height: auto;
@@ -53,4 +59,3 @@ main > div{
 		width: 100%;
 	}
 }
-
